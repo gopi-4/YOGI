@@ -1,5 +1,5 @@
 # YOGI
-  - [YOGI](https://gopi-4.github.io/yoga-class-form/) is a single page responsive application.
+  - [YOGI](https://gopi-4.github.io/YOGI/) is a single page responsive application.
   - At home you see all registered users. And to register fill the application form.
   - Frontend validation checks on Input fields (i.e on dob(18<=age<=65), email, name, slot) gives error on invalid input.
   - User get registered only if he/she is not registered for the given month else gives error. 
