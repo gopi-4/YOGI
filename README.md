@@ -1,13 +1,10 @@
 # YOGI
-  - [YOGI](https://gopi-4.github.io/yoga-class-form/) is a single page application.
-  - At home you can see all registered users.
-  - And to register fill the application form.
-  - Frontend validation checks on Input fields (i.e on dob(18<=age<=65), email, name, slot).
-  - User gets registered only if he/she is not registered for the given month else gives error. 
+  - [YOGI](https://gopi-4.github.io/yoga-class-form/) is a single page responsive application.
+  - At home you see all registered users. And to register fill the application form.
+  - Frontend validation checks on Input fields (i.e on dob(18<=age<=65), email, name, slot) gives error on invalid input.
+  - User get registered only if he/she is not registered for the given month else gives error. 
   - Once the user registered, past entry of user if present gets deleted to save space. 
-  - For particular user email it gives error of payment fail.
-  - Frontend is deployed on [github-pages](https://pages.github.com/) and backend on [railway](https://railway.app/).
-  
+
 ## Work Flow
 ![work_flow](https://user-images.githubusercontent.com/78689282/206988995-b81514c5-b65c-41b5-86f1-2871e8e1da20.jpg)
 
@@ -54,7 +51,7 @@
 | unsuccessful transaction | test_payment_fail@gmail.com |
 
 ## Tech Stack
-<img src="https://img.shields.io/badge/ReactJS%20-%2320232a.svg?logo=react" > <img src="https://img.shields.io/badge/SpringBoot%20-%2320232a.svg?logo=spring" >
+<img src="https://img.shields.io/badge/React%20-%20Js-blue" > <img src="https://img.shields.io/badge/Spring%20-Boot%20-brightgreen" > <img src="https://img.shields.io/badge/Free-%20SQL-orange" > 
 
 ## Getting Started 
 ### Setup the repository to your local environment.
@@ -66,21 +63,26 @@
   ```
   ## Frontend Setup
   ```sh
-  cd frontend
+  cd frontend/yoga-class-form
   npm install
   npm start
   ```
 
-  ## 💻 Backend Setup
+  ## Backend Setup
   ```sh
-  cd backend
+  cd backend/yoga
   mvn spring-boot:run (Note: make sure you have maven installed)
                                or
                            run on IDE
   ```
 
+## Hosting
+  - Frontend :- [github-pages](https://pages.github.com/)
+  - Backend  :- [railway](https://railway.app/)
+  - Database :- [freesqldatabase](https://www.freesqldatabase.com/)
+  
 ## Authors
 
-- [@ganeshKalyankar](https://github.com/gopi-4)
+- [@GaneshKalyankar](https://www.linkedin.com/in/gkalyankar)
 
  <center> <p align="center">--- Enjoy Coding --- </p></center>
